@@ -89,7 +89,7 @@ var createWizard = function(random, names, lastNames, coatsColors, eyesColors) {
 
 
 var wizards = [];
-for(let i = 0; i < 4; i++) {
+for(var i = 0; i < 4; i++) {
   wizards.push(createWizard(randomizer, NAMES, LAST_NAMES, coatColor, eyesColor));
 };
 
